@@ -26,7 +26,7 @@ alert(
   - Alert message saying `I am [username] and my bio is [bio]`. Replace square brackets with the value of variable.
   - Alert the message `I'm Arya Stark of Winterfell` using the variable name firstName and lastName.
 */
-alter(`I am ${userName} and my bio is ${bio}`);
+alert(`I am ${userName} and my bio is ${bio}`);
 alert(`I'm ${firstName} ${lastName} of Winterfell`);
 
 let amount = 200;
@@ -46,6 +46,8 @@ const taxPercent = 10;
   `
   - Above message should be in two lines
 */
+alert(`The total amount is ${amount}
+the tax amount is ${(amount * taxPercent) / 100}`);
 alert(
   "The total amount is" + amount + "\n" + "tax is" + (amount * taxPercent) / 100
 );
