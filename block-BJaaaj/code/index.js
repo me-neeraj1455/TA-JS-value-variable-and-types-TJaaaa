@@ -1,8 +1,13 @@
 // Accessing and assigning.
 
-let firstName = "Arya";
-let lastName = "Stark";
-
+//let firstName = "Arya";
+//let lastName = "Stark";
+let firstName = "John";
+let lastName = "Snow";
+const fullName = firstName + "" + lastName;
+let name = "Rocky";
+let newUser = "Rocky";
+let isAdmin = "true";
 // Do the following:
 
 // Alert the value of the firstName.
@@ -21,6 +26,10 @@ let lastName = "Stark";
 // Assignment and re-assignment
 
 var wiseMan = "Tyrion Lannister";
+wiseMan = "Samwell Tarly";
+var userName = "Lysa Arryn";
+var oddNumber = 57;
+oddNumber = 61;
 
 // Follow instructions and do the following. In case of an error write the error in comment
 
@@ -32,6 +41,10 @@ var wiseMan = "Tyrion Lannister";
 // Mathematical Operation
 
 let amount = 4280;
+let reducedAmount = 4280 - 24;
+let addedAmount = 4280 + 32;
+let multipleAmount = 4280 * 7;
+let dividedAmount = 4280 / 57;
 
 // Using mathematical operations find the solutions. `(+, -, \*, / , etc.)`
 
@@ -39,3 +52,19 @@ let amount = 4280;
 // Declare another variable `addedAmount`. It's value should be 32 more than the value of amount.
 // Declare a variable `multipleAmount`. It's value should be 7 times the value of amount.
 // Declare a variable `dividedAmount`. It should store the resultant of amount divided by 57.
+
+alert(firstName);
+alert(lastName);
+alert(fullName);
+alert(name);
+alert(newUser);
+alert(isAdmin);
+
+alert(wiseMan);
+alert(userName);
+alert(oddNumber);
+
+alert(reducedAmount);
+alert(addedAmount);
+alert(multipleAmount);
+alert(dividedAmount);
