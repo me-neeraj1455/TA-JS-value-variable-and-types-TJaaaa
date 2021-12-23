@@ -14,13 +14,26 @@ Use `prompt` to take two numbers from user and store it in variable `numA` and `
 
 // 3. Complete the following code to make the output be 0 2 4 6 8 10?
 
-for (let j = 0; j <= 10; ____) console.log(j);
-
+for (let j = 0; j <= 10; j = j + 1) {
+  if (j % 2 == 0) {
+    console.log(j);
+  }
+}
 // 4. Print the odd numbers from 9 to 1 (both inclusive) using a for loop.
 
-// 5. Concat all the numbers from 5 to 0 (both inclusive) in descending order using a while loop. (543210)
+for (let i = 9; i >= 1; i = i - 1) {
+  console.log(i);
+}
 
+// 5. Concat all the numbers from 5 to 0 (both inclusive) in descending order using a while loop. (543210)
+let initialValue = 5;
+while (initialValue >= 1) {
+  initialValue = initialValue - 1;
+  console.log(concat);
+}
 // 6. Concat all the even numbers from 10 to 0 (both inclusive) in descending order using a while loop. (1086420)
+
+let;
 
 // Comparisoin
 
