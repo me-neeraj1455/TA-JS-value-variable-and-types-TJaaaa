@@ -10,9 +10,16 @@ const SPENDING_THRESHOLD = 200;
 const TAX_RATE = 0.08;
 const PHONE_PRICE = 99.99;
 const ACCESSORY_PRICE = 9.99;
+let taxableAmount = ((PHONE_PRICE + ACCESSORY_PRICE) * 0.08) / 100;
 
 var bank_balance = 303.91;
-var amount = 0;
+var purchaseAmount = PHONE_PRICE + ACCESSORY_PRICE + taxableAmount;
 // your code goes here
+
+console.log(`Phone and accessories purchase amount is $${purchaseAmount} `);
+while (purchaseAmount <= SPENDING_THRESHOLD) {
+  purchaseAmount = purchaseAmount + purchaseAmount;
+}
+console.log(`$${bank_balance - purchaseAmount} is your remaining bank balance`);
 
 // ⛑ Answer of the above will `$334.76`.
